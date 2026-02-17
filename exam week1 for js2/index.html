@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <form action="" class="addForm">
+        <h1 style="margin-top: -50px; font-size: 80px;">🐦‍🔥</h1>
+        <input class="inp" required type="text" name="names" placeholder="Full Name">
+        <input class="inp" required type="text" name="jobs" placeholder="Job">
+        <input class="inp" required type="number" name="ages" placeholder="Your Age">
+        <input class="inp" required type="text" name="citys" placeholder="City">
+        <label class="adds"> Active <input type="checkbox" name="status"></label>
+        <button class="submit" type="submit">Add User</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th class="ths">Name</th>
+                <th class="ths">Job</th>
+                <th class="ths">Age</th>
+                <th class="ths">City</th>
+                <th class="ths">Status</th>
+                <th class="ths">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+    <script src="./main.js"></script>
+</body>
+</html>

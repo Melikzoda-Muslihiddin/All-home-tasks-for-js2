@@ -1,0 +1,53 @@
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btnAdd{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.btnAdd:hover{
+    background-color: black;
+    color: white;
+}
+.btnReg{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.btnReg:hover{
+    background-color: black;
+    color: white;
+}
+.container{
+    border: 1px solid gray;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.pages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 100px;
+}
+.addModal{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 2px gray;
+}

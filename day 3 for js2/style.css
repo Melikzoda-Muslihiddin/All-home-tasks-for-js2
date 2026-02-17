@@ -1,0 +1,120 @@
+.all{
+    border: 1px solid blue;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+.btn{
+    background: linear-gradient(to right,yellow,green,blue);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+}
+
+.all2{
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.but1{
+    background: linear-gradient(to right,yellowgreen);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+}
+.inp{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 26px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.all3{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.but2{
+    background: linear-gradient(to right,red);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.all4{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.but01{
+    background: linear-gradient(to right,black);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+}
+.but0{
+    background: linear-gradient(to right,white);
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: black;
+    font-size: 20px;
+}
+.score{
+    border: 1px solid blueviolet;
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: green;
+}

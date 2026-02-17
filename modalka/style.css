@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+table{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+tr{
+    border: 1px solid gray;
+
+}
+
+td,th{
+    padding: 20px;
+}
+
+.Active{
+    font-size: 20px;
+    color: green;
+    padding: 5px;
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.inactive{
+    font-size: 20px;
+    color: red;
+    padding: 5px;
+    background-color: lightpink;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.infoModal{
+    width: 400px;
+    height: 500px;
+    border: none;
+    outline: none;
+    margin: auto;
+    text-align: center;
+}
