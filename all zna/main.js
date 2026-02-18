@@ -100,7 +100,7 @@ function showProduct(data = []) {
 
     check.onchange = () => {
       if (check.checked) {
-            names.style.textDecoration = "line-through";
+        names.style.textDecoration = "line-through";
       } else {
         names.style.textDecoration = "none";
       }

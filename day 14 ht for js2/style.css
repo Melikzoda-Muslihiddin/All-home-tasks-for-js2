@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 40px;
+}
+
+.btnAdd {
+  position: fixed;
+  right: 30px;
+  bottom: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #05f7ff;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5px;
+}
+
+.btnAdd img {
+  width: 28px;
+  height: 28px;
+}
+
+.btnAdd:hover {
+  background: #4338ca;
+  transform: scale(1.05);
+}
+
+.mytable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.thead {
+  background: #4f46e5;
+  color: white;
+}
+
+.thead th {
+  padding: 15px;
+  text-align: start;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.container2 {
+  padding: 14px;
+  font-size: 14px;
+}
+
+.mytable td {
+  border-bottom: 1px solid #eee;
+}
+
+.mytable tbody tr:hover {
+  background: #eef2ff;
+  transition: 0.2s;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.mytable td:last-child {
+  text-align: center;
+}
+
+.addModal {
+  border: none;
+  border-radius: 12px;
+  padding: 30px;
+  width: 350px;
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.addForm h1 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.addForm input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.addForm input:focus {
+  border-color: #4f46e5;
+}
+
+.btnExit {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #2018b7;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnExit:hover {
+  background: #4338ca;
+}

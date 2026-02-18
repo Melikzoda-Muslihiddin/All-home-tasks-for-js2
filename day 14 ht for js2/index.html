@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home task table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <button class="btnAdd onModal"><img src="./icons/add.svg"></button>
+    <dialog class="addModal">
+        <form action="" class="addForm">
+            <h1>Registration</h1>
+            <input type="text" name="name" placeholder="Enter your name...">
+            <input type="email" name="email" placeholder="Enter your gmail...">
+            <input type="tel" name="contact" placeholder="Enter your tel...">
+            <input type="text" name="address" placeholder="Enter your adaress...">
+            <input type="number" name="salary" placeholder="Enter your salary...">
+            <button class="btnExit exitModal">Add User</button>
+        </form>
+    </dialog>
+
+    <div>
+        <table class="mytable">
+            <thead class="thead">
+                <tr class="trs">
+                    <th class="container">Full Name</th>
+                    <th class="container">Email</th>
+                    <th class="container">Contact</th>
+                    <th class="container">Salary</th>
+                    <th class="container">Address</th>
+                    <th class="container">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="box"></tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
