@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <button class="addBtn">+ Add New Employee</button>
+        </div>
+        <input type="text" class="search" placeholder="Global search">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Salary</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="tbody"></tbody>
+        </table>
+
+    </div>
+
+    <dialog class="modal">
+        <form class="form">
+            <h3 class="modalTitle">Add Employee</h3>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="number" name="salary" placeholder="Salary" required>
+            <input type="number" name="age" placeholder="Age" required>
+            <button type="submit" class="saveBtn">Save</button>
+        </form>
+    </dialog>
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>

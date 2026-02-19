@@ -86,6 +86,12 @@ function editUser(user) {
   addModal.showModal();
 }
 
+function infoUser(elem) {
+    console.log(elem);
+    let p = document.createElement("p")
+    p.innerHTML = elem.name
+}
+
 function showUsers(data = []) {
   box.innerHTML = "";
   data.forEach((user) => {
@@ -106,6 +112,10 @@ function showUsers(data = []) {
 
     tr.querySelector(".delete").onclick = () => deleteUser(user.id);
     tr.querySelector(".edit").onclick = () => editUser(user);
+    let btnInfo = tr.querySelector(".info")
+    btnInfo.onclick = () => {
+        infoUser(user)
+    }
   });
 }
 getUsers();

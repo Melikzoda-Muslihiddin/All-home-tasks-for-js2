@@ -36,7 +36,8 @@ body {
   background: #ffffff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.05); */
+  box-shadow: 2px 2px 5px red, -2px -2px 5px blue;
 }
 
 .thead {
