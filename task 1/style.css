@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+table {
+    margin: 100px auto;
+    width: 60%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.trh{
+    background-color: rgba(9, 9, 182, 0.769);
+}
+.trh:hover{
+    background-color: rgba(9, 9, 182, 0.769);
+}
+th{
+    padding: 5px 0px 5px 5px;
+    text-align: start;
+    color: white;
+}
+td{
+    border-bottom: 1px solid gray;
+    padding: 5px 0px 5px 5px;
+}
+tr:hover{
+    background-color: rgba(91, 197, 243, 0.137);
+    transition: 0.3s ease;
+}
+
+.th1{
+    border-top-left-radius: 5px;
+}
+.th3{
+    border-top-right-radius: 5px;
+}

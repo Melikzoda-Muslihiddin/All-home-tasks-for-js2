@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <button class="onModal">Add User</button>
+    <dialog class="addModal">
+        <form action="" class="addForm">
+            <input required class="inputName" name="name" type="text" placeholder="name">
+            <input required class="inputAge" name="age" type="number" placeholder="age">
+            <button class="addUser" type="submit">Add User</button>
+        </form>
+        <button class="exitModal" type="button">Exit</button>
+    </dialog>
+    <table>
+        <thead>
+            <tr class="trh">
+                <th class="th1">#</th>
+                <th>Profile</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th class="th3">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box">
+        </tbody>
+    </table>
+
+    <script src="./main.js"></script>
+</body>
+</html>
