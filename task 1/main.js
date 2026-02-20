@@ -1,16 +1,7 @@
 // STATE (данные приложения, источник истины)
 // → где хранится массив объектов (todos, users и т.д.)
 
-const api = "https://6991ca7c6279728b01555696.mockapi.io/users";
-
-async function getUsers() {
-  try {
-    let {data} = await axios.get(api);
-    showUsers(data);
-  } catch (error) {
-    console.error(error);
-  }
-}
+import{getUsers,postUser,deleteUser} from "./api.js"
 
 let box = document.querySelector(".box");
 const onModal = document.querySelector(".onModal");
@@ -54,21 +45,8 @@ exitModal.onclick = () => {
 // UPDATE STATE (изменение данных)
 // → изменяем массив: push, filter, find, map
 
-async function deleteUser(id){
-  try {
-    await axios.delete(`${api}/${id}`)
-    getUsers()
-  } catch (error) {
-    console.error(error);
-  }
-}
-async function postUser(newUser) {
-  try {
-    await axios.post(api,newUser)
-  } catch (error) {
-    console.error(error);
-  }
-}
+
+
 addForm.onsubmit= async (e)=>{
   e.preventDefault()
   let newUser ={
@@ -79,16 +57,11 @@ addForm.onsubmit= async (e)=>{
   postUser(newUser)
   addForm.reset()
 }
-async function editUser(id){
-  try {
-    await axios.put(`${api}/${id}`)
-    getUsers()
-  } catch (error) {
-    console.error(error);
-  }
-}
+
 
 
 // RENDER (повторная перерисовка интерфейса)
 // → заново отображаем обновлённые данные
 getUsers();
+
+export{showUsers,inputName,inputAge,addUser}

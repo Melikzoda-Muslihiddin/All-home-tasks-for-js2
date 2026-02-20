@@ -13,7 +13,7 @@ async function getUsers() {
 
 async function postUser(id) {
     try {
-        await axios.post(api,user)
+        await axios.post(api,id)
         getUsers()
     } catch (error) {
         console.error();
