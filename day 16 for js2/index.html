@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <button class="btnAdd">+ Add User</button>
+<select name="" class="select">
+    <option value="false">Active</option>
+    <option value="true">Inactive</option>
+</select>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Date Created</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+</div>
+
+<dialog class="modal">
+    <form class="userForm">
+        <h3>User Form</h3>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="avatar" placeholder="Avatar URL" required>
+        <input type="text" name="role" placeholder="Role" required>
+        <select name="status">
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+        <button type="submit">Save</button>
+        <button type="button" class="closeModal">Cancel</button>
+    </form>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
