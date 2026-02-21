@@ -1,0 +1,107 @@
+/* /* /* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.btnAdd{
+    background-color: rgb(6, 6, 119);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    margin: 50px;
+}
+table{
+    margin: auto;
+    width: 60%;
+    border: none;
+    border-collapse: collapse;
+}
+tbody{
+    padding: 10px;
+}
+thead{
+    background-color: blue;
+    color: white;
+}
+th{
+    padding: 10px 0px 10px 5px;
+}
+div{
+    display: flex; 
+    flex-direction: column; 
+    align-content: center; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    width: 90%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(48, 0, 206, 0.849);
+}
+.addModal{
+    border: none;
+    padding:20px 10px;
+    border-radius: 10px;
+    margin: auto;
+} */
+
+/* body {
+    font-family: Arial;
+    background: #f5f6fa;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.active { background: green; }
+.inactive { background: orange; }
+
+.action-btn {
+    cursor: pointer;
+    margin-right: 8px;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+.btnAdd {
+    margin-bottom: 15px;
+    padding: 8px 12px;
+} */ 
