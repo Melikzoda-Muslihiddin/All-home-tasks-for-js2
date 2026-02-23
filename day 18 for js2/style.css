@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnBodyModeDark{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.btnBodyModeLight{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.bodyMode{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    width:50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

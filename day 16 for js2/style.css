@@ -1,4 +1,4 @@
-/* /* /* *{
+/**{
     margin: 0;
     padding: 0;
 }
@@ -51,7 +51,7 @@ input{
     margin: auto;
 } */
 
-/* body {
+body {
     font-family: Arial;
     background: #f5f6fa;
 }
@@ -104,4 +104,4 @@ img {
 .btnAdd {
     margin-bottom: 15px;
     padding: 8px 12px;
-} */ 
+} 
