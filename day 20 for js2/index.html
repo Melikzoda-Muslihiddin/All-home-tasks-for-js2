@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Product List</h1>
+
+        <div class="toolbar">
+            <input id="search" placeholder="Search by name..." />
+            <button id="sortBtn">Sort by Price ↑</button>
+            <button id="addBtn">Add Product</button>
+            <button id="deleteSelected" disabled>🗑</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="checkAll"></th>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+        </table>
+
+    </div>
+
+    <div id="menu" class="menu hidden">
+        <button data-act="info">Info</button>
+        <button data-act="edit">Edit</button>
+        <button data-act="delete">Delete</button>
+    </div>
+
+    <dialog id="formDialog">
+        <form id="form">
+            <h3 id="formTitle">Add</h3>
+
+            <input name="name" placeholder="Name" required />
+            <input name="categories" placeholder="Category" required />
+            <input name="price" type="number" placeholder="Price" required />
+            <input name="avatar" placeholder="Avatar URL" />
+            <select name="status">
+                <option value="true">In Stock</option>
+                <option value="false">Out of Stock</option>
+            </select>
+
+            <button type="submit">Save</button>
+            <button type="button" id="closeForm">Cancel</button>
+        </form>
+    </dialog>
+
+    <dialog id="infoDialog">
+        <div id="infoBox"></div>
+        <button id="closeInfo">Close</button>
+    </dialog>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <button class="onModal">Add User</button>
+    <dialog class="addModal">
+        <form class="addForm">
+            <input name="name" type="text" placeholder="Name">
+            <input name="age" type="number" placeholder="Age">
+            <label>Active <input type="checkbox" name="status" value="false"></label>
+        </form>
+        <button class="exitModal">Exit</button>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
