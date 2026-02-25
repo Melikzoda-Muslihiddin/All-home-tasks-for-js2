@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Apple Series 4 GPS A38 MM Space",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzBE_P3rPclK8gJnC-y1Mq7kNOvyL8yUHlg&s",
+      "categories": "Fashion, Watch",
+      "price": 275,
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Apple iPhone 13 Mini",
+      "avatar": "https://www.catholicsingles.com/wp-content/uploads/2020/06/blog-header-3.png",
+      "categories": "Electronics, Iphone",
+      "price": 86.99,
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "Apple iPhone 13 Pro",
+      "avatar": "https://shotkit.com/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape-6cbeea07ce870fc53bedd94909941a4b-zybravgx2q47.jpeg",
+      "categories": "Electronics, Iphone",
+      "price": 100,
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "Boat On-Ear Wireless",
+      "avatar": "https://i0.wp.com/www.commercialphotographynorthwestblog.co.uk/wp-content/uploads/2020/10/MDH_8729webqualitysquare.jpg?resize=560%2C560&ssl=1",
+      "categories": "Electronics, Headphones",
+      "price": 81.99,
+      "status": false
+    }
+  ]
+}
