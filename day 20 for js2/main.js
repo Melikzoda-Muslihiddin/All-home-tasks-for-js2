@@ -10,7 +10,7 @@ const search = document.querySelector("#search");
 const sortBtn = document.querySelector("#sortBtn");
 const addBtn = document.querySelector("#addBtn");
 const deleteSelectedBtn = document.querySelector("#deleteSelected");
-const checkAll = document.querySelector("#checkAll");
+
 
 const menu = document.querySelector("#menu");
 const formDialog = document.querySelector("#formDialog");

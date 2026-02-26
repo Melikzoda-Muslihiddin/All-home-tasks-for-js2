@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+   
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1 class="title">Members list</h1>
+                <p class="subtitle">See information about all members</p>
+            </div>
+
+            <div class="headerBtns">
+                <button class="btn viewAllBtn">VIEW ALL</button>
+                <button class="btn primary addBtn">ADD MEMBER</button>
+            </div>
+        </div>
+
+        <div class="toolbar">
+            <div class="filters">
+                <button class="btn filterBtn onlineBtn">ONLINE</button>
+                <button class="btn filterBtn offlineBtn">OFFLINE</button>
+            </div>
+
+            <div class="searchWrap">
+                <input class="searchInput" placeholder="Search" />
+            </div>
+        </div>
+
+        <div class="tableWrap">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="th">Member</th>
+                        <th class="th">Function</th>
+                        <th class="th">Status</th>
+                        <th class="th">Employed</th>
+                        <th class="th">Controls</th>
+                        <th class="th">Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody"></tbody>
+            </table>
+
+            <div class="emptyText empty"></div>
+        </div>
+    </div>
+
+    <dialog class="addModal">
+        <form class="addForm">
+            <h2 class="modalTitle">Add member</h2>
+
+            <input class="input" name="name" type="text" placeholder="Name" required />
+            <input class="input" name="email" type="email" placeholder="Email" required />
+            <input class="input" name="avatar" type="text" placeholder="Avatar url" required />
+            <input class="input" name="job" type="text" placeholder="Job (Manager / Engineer ...)" required />
+            <input class="input" name="position" type="text" placeholder="Position (Organization / Developer ...)"
+                required />
+            <input class="input" name="employed" type="text" placeholder="Employed (dd/mm/yy)" required />
+
+            <label class="checkLine">
+                <input class="statusInput" name="status" type="checkbox" />
+                Online
+            </label>
+
+            <div class="modalBtns">
+                <button class="btn primary submitBtn" type="submit">SAVE</button>
+                <button class="btn closeBtn" type="button">CLOSE</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog class="InfoModal">
+        <div class="infoBox">
+            <h2 class="infoTitle">Member info</h2>
+
+            <div class="infoContent"></div>
+
+            <button class="btn closeInfoBtn" type="button">CLOSE</button>
+        </div>
+    </dialog>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.7.9/dist/axios.min.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

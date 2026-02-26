@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f5f7;
+  color: #111;
+}
+
+.container {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+}
+.subtitle {
+  margin: 6px 0 0;
+  color: #666;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.searchInput {
+  margin-left: auto;
+  width: 260px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn.primary {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+.btn.active {
+  border-color: #111;
+}
+
+.tableWrap {
+  margin-top: 14px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.th,
+td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.memberCell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+.small {
+  color: #666;
+  font-size: 12px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+}
+.badge.online {
+  background: #e9f8ee;
+}
+.badge.offline {
+  background: #f2f2f2;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+.iconBtn {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.addModal,
+.InfoModal {
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  width: 420px;
+}
+.addForm,
+.infoBox {
+  padding: 16px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.modalBtns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.emptyText {
+  margin-top: 10px;
+  color: #666;
+}

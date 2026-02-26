@@ -8,7 +8,7 @@ export const getProducts = async () => {
 export const addProduct = async (obj) => {
   await axios.post(API, obj);
 };
-
+  
 export const updateProduct = async (id, obj) => {
   await axios.put(`${API}/${id}`, obj);
 };
