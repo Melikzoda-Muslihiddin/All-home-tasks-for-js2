@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users Cards</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <button class="btn btnAdd">Add</button>
+
+    <dialog class="addModal">
+        <form class="addForm">
+            <div class="modalHead">
+                <h3 class="modalTitle">Add user</h3>
+                <button type="button" class="btn btnCloseAdd">X</button>
+            </div>
+
+            <label class="field">
+                <span>Name</span>
+                <input class="addName" name="name" type="text" placeholder="Name" required />
+            </label>
+
+            <label class="field">
+                <span>Email</span>
+                <input class="addEmail" name="email" type="email" placeholder="Email" />
+            </label>
+
+            <label class="field">
+                <span>Avatar URL</span>
+                <input class="addAvatar" name="avatar" type="text" placeholder="https://..." />
+            </label>
+
+            <label class="field">
+                <span>Job</span>
+                <input class="addJob" name="job" type="text" placeholder="Job" />
+            </label>
+
+            <label class="field">
+                <span>Position</span>
+                <input class="addPosition" name="position" type="text" placeholder="Position" />
+            </label>
+
+            <label class="field">
+                <span>Employed</span>
+                <input class="addEmployed" name="employed" type="text" placeholder="2024-01-10" />
+            </label>
+
+            <label class="field checkboxRow">
+                <span>Status</span>
+                <input class="addStatus" name="status" type="checkbox" />
+                <small class="hint">checked = online</small>
+            </label>
+
+            <button class="btn btnSave" type="submit">Create</button>
+        </form>
+    </dialog>
+
+    <div class="container">
+        <h1 class="title">Users</h1>
+
+        <div class="toolbar">
+            <input class="searchInput" type="text" placeholder="Search by name / email..." />
+            <button class="btn btnOnline">Online</button>
+            <button class="btn btnOffline">Offline</button>
+            <button class="btn btnAll">All</button>
+        </div>
+
+        <div class="cards box"></div>
+    </div>
+    <dialog class="infoModal">
+        <div class="modalHead">
+            <h3 class="modalTitle">User info</h3>
+            <button class="btn btnCloseInfo">X</button>
+        </div>
+        <div class="infoBody"></div>
+    </dialog>
+    <dialog class="editModal">
+        <form class="editForm">
+            <div class="modalHead">
+                <h3 class="modalTitle">Edit user</h3>
+                <button type="button" class="btn btnCloseEdit">X</button>
+            </div>
+
+            <label class="field">
+                <span>Name</span>
+                <input class="editName" name="name" type="text" placeholder="Name" required />
+            </label>
+
+            <label class="field">
+                <span>Email</span>
+                <input class="editEmail" name="email" type="email" placeholder="Email" />
+            </label>
+
+            <label class="field">
+                <span>Avatar URL</span>
+                <input class="editAvatar" name="avatar" type="text" placeholder="https://..." />
+            </label>
+
+            <label class="field">
+                <span>Job</span>
+                <input class="editJob" name="job" type="text" placeholder="Job" />
+            </label>
+
+            <label class="field">
+                <span>Position</span>
+                <input class="editPosition" name="position" type="text" placeholder="Position" />
+            </label>
+
+            <label class="field checkboxRow">
+                <span>Status</span>
+                <input class="editStatus" name="status" type="checkbox" />
+                <small class="hint">checked = online</small>
+            </label>
+
+            <button class="btn btnSave" type="submit">Save</button>
+        </form>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

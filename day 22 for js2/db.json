@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ali Rahmon",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "status": true,
+      "employed": "2023-05-22",
+      "job": "Frontend Developer",
+      "position": "IT",
+      "email": "ali.rahmon@mail.com"
+    },
+    {
+      "id": "2",
+      "name": "Sara Karimova",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "status": false,
+      "employed": "2022-11-14",
+      "job": "UI Designer",
+      "position": "Design",
+      "email": "sara.karimova@mail.com"
+    },
+    {
+      "id": "3",
+      "name": "Rustam Naimov",
+      "avatar": "https://randomuser.me/api/portraits/men/75.jpg",
+      "status": true,
+      "employed": "2024-01-10",
+      "job": "Backend Developer",
+      "position": "IT",
+      "email": "rustam.naimov@mail.com"
+    },
+    {
+      "id": "4",
+      "name": "Madina Yusuf",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+      "status": true,
+      "employed": "2021-09-03",
+      "job": "HR Manager",
+      "position": "Management",
+      "email": "madina.yusuf@mail.com"
+    },
+    {
+      "id": "5",
+      "name": "Jamshed Kurbonov",
+      "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+      "status": true,
+      "employed": "2023-03-19",
+      "job": "QA Engineer",
+      "position": "Testing",
+      "email": "jamshed.kurbonov@mail.com"
+    },
+    {
+      "id": "6",
+      "name": "Nargiza Saidova",
+      "avatar": "https://randomuser.me/api/portraits/women/21.jpg",
+      "status": false,
+      "employed": "2022-07-27",
+      "job": "Project Manager",
+      "position": "Management",
+      "email": "nargiza.saidova@mail.com"
+    },
+    {
+      "id": "7b2c",
+      "name": "Karim Benzema",
+      "email": "mola@gmail.com",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/68.jpg",
+      "job": "Selectjon",
+      "position": "Alif",
+      "employed": "",
+      "status": true
+    }
+  ]
+}
