@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home me Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="btnAdd">Add User</button>
+
+    <dialog class="addModal">
+        <form class="addForm">
+            <input name="name" type="text" placeholder="Enter your name...">
+            <input name="age" type="number" placeholder="Enter your age...">
+            <input name="email" type="email" placeholder="Enter your email...">
+            <input name="image" type="file" placeholder="Enter your Image...">
+            <button class="btnAdd" type="submit">Add</button>
+        </form>
+        <button class="btnOffModa">Exit</button>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Profile</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box">
+            
+        </tbody>
+    </table>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

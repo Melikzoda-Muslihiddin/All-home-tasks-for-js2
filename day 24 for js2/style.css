@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.btnAdd{
+    border: white;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.btnAdd:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+}
