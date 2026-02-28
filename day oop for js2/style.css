@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+body {
+  margin: 0;
+  background: #f6f7fb;
+}
+.container {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 12px;
+}
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 12px 0;
+}
+.searchWrap {
+  flex: 1;
+}
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.sortSelect,
+.btnAdd,
+.btnDeleteSelected {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+.btnAdd {
+  background: #1976d2;
+  color: #fff;
+  border-color: #1976d2;
+}
+.btnDeleteSelected:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.tableWrap {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  vertical-align: middle;
+}
+td img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+.status.in {
+  background: #e7f7ee;
+  color: #1b7f3b;
+}
+.status.out {
+  background: #fde8e8;
+  color: #b42318;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+}
+.iconBtn {
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 420px;
+  width: 100%;
+}
+.productForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inp {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.modalBtns {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.btnPrimary {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #1976d2;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+}
+.btnClose,
+.viewClose {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}

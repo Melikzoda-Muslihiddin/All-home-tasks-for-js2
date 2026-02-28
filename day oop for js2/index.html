@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Product List</h1>
+
+        <div class="toolbar">
+            <div class="searchWrap">
+                <input class="searchInput" placeholder="Search..." />
+            </div>
+
+            <select class="sortSelect">
+                <option value="title-asc">Sort: Product (A→Z)</option>
+                <option value="title-desc">Sort: Product (Z→A)</option>
+                <option value="price-asc">Sort: Price (Low→High)</option>
+                <option value="price-desc">Sort: Price (High→Low)</option>
+                <option value="qty-asc">Sort: Qty (Low→High)</option>
+                <option value="qty-desc">Sort: Qty (High→Low)</option>
+            </select>
+
+            <button class="btnAdd">+ Add Product</button>
+            <button class="btnDeleteSelected" disabled>🗑</button>
+        </div>
+
+        <div class="tableWrap">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" class="checkAll" /></th>
+                        <th>#</th>
+                        <th>PRODUCT DETAIL</th>
+                        <th>CATEGORIES</th>
+                        <th>PRICE</th>
+                        <th>QTY</th>
+                        <th>STATUS</th>
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <dialog class="productModal">
+        <form class="productForm">
+            <h3 class="modalTitle">Add Product</h3>
+
+            <input name="title" class="inp" placeholder="Title" required />
+            <input name="subtitle" class="inp" placeholder="Subtitle" />
+            <input name="category" class="inp" placeholder="Category (e.g. Electronics, Laptop)" required />
+
+            <input name="image" class="inp" placeholder="Image URL (optional)" />
+            <input name="price" class="inp" type="number" step="0.01" placeholder="Price" required />
+            <input name="qty" class="inp" type="number" placeholder="Qty" required />
+
+            <select name="status" class="inp">
+                <option value="in">In Stock</option>
+                <option value="out">Out of Stock</option>
+            </select>
+
+            <div class="modalBtns">
+                <button type="submit" class="btnPrimary">Save</button>
+                <button type="button" class="btnClose">Close</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog class="viewModal">
+        <div class="viewBox"></div>
+        <button class="viewClose">Close</button>
+    </dialog>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>

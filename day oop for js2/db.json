@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Apple MacBook Pro with Iphone",
+      "subtitle": "11th Generation Intel Core i5-11320H ...",
+      "category": "Electronics, Laptop",
+      "price": 14.59,
+      "qty": 70,
+      "status": "in",
+      "image": "https://via.placeholder.com/48"
+    },
+    {
+      "id": 2,
+      "title": "Boat On-Ear Wireless",
+      "subtitle": "Mic(Bluetooth 4.2, Rockerz 450R)...",
+      "category": "Electronics, Headphones",
+      "price": 81.99,
+      "qty": 45,
+      "status": "out",
+      "image": "https://via.placeholder.com/48"
+    }
+  ]
+}
