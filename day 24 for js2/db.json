@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "name": "Dexter Vandervort",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/97.jpg",
+      "email": "Rowland_Marvin@yahoo.com",
+      "age": 15,
+      "id": "1"
+    },
+    {
+      "name": "Mrs. Evelyn Friesen",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/35.jpg",
+      "email": "Nickolas_OHara@yahoo.com",
+      "age": 9,
+      "id": "2"
+    },
+    {
+      "name": "Manuel Miller",
+      "avatar": "https://avatars.githubusercontent.com/u/19835285",
+      "email": "Clay.Nienow80@hotmail.com",
+      "age": 70,
+      "id": "3"
+    },
+    {
+      "name": "Rebecca Franecki",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/29.jpg",
+      "email": "Elsie17@yahoo.com",
+      "age": 7,
+      "id": "4"
+    },
+    {
+      "name": "Emmett Ziemann",
+      "avatar": "https://avatars.githubusercontent.com/u/22517788",
+      "email": "Fabiola97@hotmail.com",
+      "age": 78,
+      "id": "5"
+    },
+    {
+      "name": "Ebony Stokes",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/30.jpg",
+      "email": "Sydney_Dicki-Watsica@yahoo.com",
+      "age": 84,
+      "id": "6"
+    },
+    {
+      "name": "Kate Mayert",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/51.jpg",
+      "email": "Donny_Miller@yahoo.com",
+      "age": 62,
+      "id": "7"
+    },
+    {
+      "name": "Dorothy Fahey",
+      "avatar": "https://avatars.githubusercontent.com/u/3612311",
+      "email": "Trevion72@yahoo.com",
+      "age": 96,
+      "id": "8"
+    },
+    {
+      "name": "Catherine Halvorson",
+      "avatar": "https://avatars.githubusercontent.com/u/31376038",
+      "email": "Mae_Miller78@yahoo.com",
+      "age": 12,
+      "id": "9"
+    },
+    {
+      "id": "d77e"
+    }
+  ]
+}
