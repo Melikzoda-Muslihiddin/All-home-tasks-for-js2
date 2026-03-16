@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Laptops.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/Container.png" alt="" />
+      <div class="LapAccDe">
+        <a class="href" href="./Laptops.html">Laptop</a>
+        <a class="href" href="./Accessories.html">Accessories</a>
+        <a class="href" href="./Deals.html">Deals</a>
+      </div>
+
+      <div>
+        <input class="search"
+          style="
+            width: 256px;
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            padding-left: 20px;
+            background-color: #e0eefb;
+          "
+          type="text"
+          placeholder="Search products..."
+        />
+        <button
+          style="
+            background-color: #e8f1f9;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 10%;
+          "
+        >
+          <img src="./icon/icon.svg" alt="" width="20px" />
+        </button>
+        <button
+          style="
+            background-color: #e8f1f9;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 10%;
+          "
+        >
+          <img src="./icon/avatar.svg" alt="" width="20px" />
+        </button>
+      </div>
+    </header>
+
+    <div
+      style="margin-top: 30px; display: flex; gap: 10px; align-items: center"
+    >
+      <a
+        style="color: rgb(99, 98, 98); font-size: 20px"
+        href="/src/logic/pages/Home.html"
+        >Home ></a
+      >
+      <p style="font-size: 25px">Laptops</p>
+    </div>
+
+    <h1 style="font-size: 55px; margin-top: -20px">Premium Laptops</h1>
+    <p style="font-size: 20px; color: grey; margin-top: -20px">
+      High-performance machines engineered for elite creators, developers, and
+      visionaries.
+    </p>
+
+    <main style="display: flex; gap: 20px; margin-top: 50px">
+      <div class="Filters">
+        <h1>Filters</h1>
+
+        <p
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            margin-left: 5px;
+            font-weight: bold;
+          "
+        >
+          <img src="/src/logic/pages/img/Icon (28).png" alt="" />
+          Price Range
+        </p>
+
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+          "
+        >
+          <input class="filter-price" value="500-1000" type="checkbox" style="width: 20px; height: 20px" />
+          <label for="">$500-$1,000</label>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+          "
+        >
+          <input class="filter-price" value="1000-1500" type="checkbox" style="width: 20px; height: 20px" />
+          <label for="">$1,000-$1,500</label>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+          "
+        >
+          <input class="filter-price" value="2500+" type="checkbox" style="width: 20px; height: 20px" />
+          <label for="">$2,500+</label>
+        </div>
+
+        <p
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            margin-left: 5px;
+            font-weight: bold;
+            margin-top: 60px;
+          "
+        >
+          <img src="/src/logic/pages/img/Container (3).png" alt="" />
+          Brand
+        </p>
+
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+          "
+        >
+          <input class="filter-brand" value="Business" type="checkbox" style="width: 20px; height: 20px" />
+          <label for="">Bussines</label>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+          "
+        >
+          <input class="filter-brand" value="Gaming" type="checkbox" style="width: 20px; height: 20px" />
+          <label for="">Gaming</label>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+          "
+        >
+          <input class="filter-brand" value="Student" type="checkbox" style="width: 20px; height: 20px" />
+          <label for="">Student</label>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+          "
+        >
+          <input class="filter-brand" value="Ultra book" type="checkbox" style="width: 20px; height: 20px" />
+          <label for="">Ultra book</label>
+        </div>
+
+        <button class="filterbtn"
+          style="
+            background-color: #036bda;
+            margin-top: 50px;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 256px;
+          "
+        >
+          Apply Filters
+        </button>
+      </div>
+
+      <div>
+        <div
+          style="
+            border-bottom: 3px solid rgb(228, 228, 228);
+            display: flex;
+            gap: 500px;
+          "
+        >
+          <p style="font-size: 20px; color: grey; font-weight: 400">
+            Showing <span style="color: black">1-12</span> of 48 laptops
+          </p>
+
+       <div style="display: flex; gap: 20px">
+  <button class="title">Popularity</button>
+
+  <button class="sort-low" style="color: gray">
+    Price: Low to High
+  </button>
+
+  <button class="sort-high" style="color: gray">
+    Price: High to Low
+  </button>
+</div>
+        </div>
+
+       <div class="PremiumLaptops"></div>
+<div class="pagination"></div>
+      </div>
+    </main>
+
+  
+
+
+       <footer >
+
+        <div style="margin-top: 30px;">
+            <img src="/src/logic/pages/img/Container (1).png" alt="" width="342px">
+            <p>The ultimate destination for premium <br>
+laptops. Designed for professionals, <br>
+gamers, and students.</p> <br>
+            <img src="/src/logic/pages/img/Container (2).png" alt="">
+        </div>
+
+
+        <div>
+            <h1>Products</h1>
+            <p>Laptops</p>
+            <p>Accessories</p>
+            <p>Deals</p>
+            <p>Gaming Laptops</p>
+        </div>
+
+        <div>
+            <h1>Support</h1>
+            <p>My Account</p>
+            <p>Help Center</p>
+            <p>Contact Us</p>
+        </div>
+
+
+ 
+
+
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/dist/logic/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+    
+<body>
+    <h1 style="text-align: center;">User list</h1>
+    <div style="display: flex;">
+        <div class="divAddUser">
+            <h1>Add</h1>
+            <input class="inpName" type="text" placeholder="Name..">
+            <input class="inpRole" type="text" placeholder="Role..">
+            <input class="inpImage" type="text" placeholder="Image..">
+            <input class="inpEmail" type="email" placeholder="Email..">
+            <input class="inpCreate" type="text" placeholder="Created..">
+            <button class="btnSave">Save</button>
+        </div>
+        <div class="divAddUser">
+            <h1>Edit</h1>
+            <input class="inpNameEdit" type="text" placeholder="Name..">
+            <input class="inpRoleEdit" type="text" placeholder="Role..">
+            <input class="inpImageEdit" type="text" placeholder="Image..">
+            <input class="inpEmailEdit" type="email" placeholder="Email..">
+            <input class="inpCreateEdit" type="text" placeholder="Created..">
+            <button class="btnSaveEdit">Save</button>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Created</th>
+                <th>Status</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+    <script src="mian.js"></script>
+</body>
+
+</html>

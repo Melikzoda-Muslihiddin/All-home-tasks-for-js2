@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ali Rahmon",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "age":21
+    },
+    {
+      "id": 2,
+      "name": "Sara Karimova",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "age":78
+    },
+    {
+      "id": 3,
+      "name": "Rustam Naimov",
+      "avatar": "https://randomuser.me/api/portraits/men/75.jpg",
+      "age": 32
+    },
+    {
+      "id": 4,
+      "name": "Madina Yusuf",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+      "age":43
+    },
+    {
+      "id": 5,
+      "name": "Jamshed Kurbonov",
+      "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+      "age":23
+    },
+    {
+      "id": 6,
+      "name": "Nargiza Saidova",
+      "avatar": "https://randomuser.me/api/portraits/women/21.jpg",
+        "age":20
+    }
+  ]
+}

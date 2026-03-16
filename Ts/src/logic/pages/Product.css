@@ -1,0 +1,85 @@
+header{
+    display: flex;
+     gap: 400px;
+    align-items: center;
+ 
+}
+body{
+    background-color: #F8FAFC;
+       max-width: 99%;
+    margin-left:3% ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.href{
+    color: grey;
+    text-decoration: none;
+}
+.LapAccDe{
+    display: flex;
+    gap: 30px;
+}
+.details-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.add-to-cart {
+    width: 485px;
+    height: 62px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color:#135BEC ;
+    font-size: 17px;
+}
+
+.buy-now {
+    width: 485px;
+    height: 62px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color:#000000 ;
+    font-size: 17px;
+}
+
+
+footer p{
+color:#94A3B8;
+font-size: 20px;
+}
+
+footer input{
+    background-color: #1E293B;
+}
+
+footer{
+    background-color: #0F172A; 
+     margin-top: 80px; 
+     margin-left: -3%; 
+     display: flex; 
+     justify-content: space-around;
+      padding-top: 70px;
+      align-items: start;
+      color: white;
+}
+.btnjoin{
+    width: 109px;
+    height: 42px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color:#135BEC ;
+    font-size: 17px;
+    font-size: 20px;
+}
+.inputEmail{
+    width: 270px;
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 17px;
+}

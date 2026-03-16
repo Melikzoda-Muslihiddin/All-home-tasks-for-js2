@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "status": false
+    },
+    {
+      "id": "2",
+      "name": "Amina Karimova",
+      "email": "amina.karimova@gmail.com",
+      "status": false
+    },
+    {
+      "id": "3",
+      "name": "Rustam Sharipov",
+      "email": "rustam.sharipov@gmail.com",
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "Madinabonu Saidova",
+      "email": "madina.saidova@gmail.com",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "Farhod Ismoilov",
+      "email": "farhod.ismoilov@gmail.com",
+      "status": false
+    },
+    {
+      "id": "6",
+      "name": "Sabrina Nazarova",
+      "email": "sabrina.nazarova@gmail.com",
+      "status": true
+    },
+    {
+      "id": "7",
+      "name": "Timur Rahmonov",
+      "email": "timur.rahmonov@gmail.com",
+      "status": false
+    },
+    {
+      "id": "8",
+      "name": "Daler Sultonov",
+      "email": "daler.sultonov@gmail.com",
+      "status": true
+    },
+    {
+      "id": "9",
+      "name": "Zarina Usmonova",
+      "email": "zarina.usmonova@gmail.com",
+      "status": true
+    },
+    {
+      "id": "10",
+      "name": "Mahdi Nematov",
+      "email": "mahdi.nematov@gmail.com",
+      "status": true
+    }
+  ]
+}

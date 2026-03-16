@@ -84,13 +84,9 @@ addForm.onsubmit = async (e) => {
     employed: addEmployed.value.trim(),
     status: addStatus.checked
   };
-
-  if (!user.name) return;
-
+  
   const created = await createUser(user);
-  if (!created) return alert("Create error");
-
-  users.unshift(created);
+    users.unshift(created);
   addModal.close();
   addForm.reset();
   render();

@@ -1,0 +1,47 @@
+{
+  "products": [
+    { "id": 1, "name": "Gaming Laptop 1", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=49896de5be552c287369948837979fea0d7e2c7dd53cef3a-5234508-images-thumbs&n=13", "categoryId": 1, "price": "$1299" , "about": "High refresh rates & GPU power" },
+    { "id": 2, "name": "Business Laptop 1", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=f8b4d6da7d53b3221e48801f2175e030c6caf76f-4417779-images-thumbs&n=13", "categoryId": 2, "price": "$999" , "about": "Professional performance and design" },
+    { "id": 3, "name": "Student Laptop 1", "status": false, "avatar": "https://avatars.mds.yandex.net/i?id=bd8528442a95d65de9cfd2ff1afebf6a1b91de22-5288552-images-thumbs&n=13", "categoryId": 3, "price": "$799" , "about": "Affordable and reliable for students" },
+    { "id": 4, "name": "Ultrabook 1", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=bd8528442a95d65de9cfd2ff1afebf6a1b91de22-5288552-images-thumbs&n=13", "categoryId": 4, "price": "$899", "about": "Lightweight and powerful for everyday use" },
+    { "id": 5, "name": "Gaming Laptop 2", "status": false, "avatar": "https://avatars.mds.yandex.net/i?id=cf9f83de161bb29554b5fb36e215d5ab0f79ea2c-12371805-images-thumbs&n=13", "categoryId": 1, "price": "$1499", "about": "High refresh rates & GPU power" },
+    { "id": 6, "name": "Business Laptop 2", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=ac38220f4615948a7ba8ae71974995bd2ad3eac7-10146075-images-thumbs&n=13", "categoryId": 2, "price": "$899", "about": "Professional performance and design" },
+    { "id": 7, "name": "Student Laptop 2", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=96a6bb1f27e8ba17f9f1cd0bd1415fd2d0f10fad-5232244-images-thumbs&n=13", "categoryId": 3, "price": "$699", "about": "Affordable and reliable for students" },
+    { "id": 8, "name": "Ultrabook 2", "status": false, "avatar": "https://avatars.mds.yandex.net/i?id=d97f3e0d56479729dbad3ec3279d11fd54599e2f-8000733-images-thumbs&n=13", "categoryId": 4, "price": "$799", "about": "Lightweight and powerful for everyday use" },
+    { "id": 9, "name": "Gaming Laptop 3", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=40e2dd254b60159bf80fddd9b22854083cdf926d-5235791-images-thumbs&n=13", "categoryId": 1, "price": "$2799", "about": "High refresh rates & GPU power" },
+    { "id": 10, "name": "Student Laptop 3", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=f8b4d6da7d53b3221e48801f2175e030c6caf76f-4417779-images-thumbs&n=13", "categoryId": 3, "price": "$599", "about": "Affordable and reliable for students" },
+    { "id": 11, "name": "Business Laptop 3", "status": false, "avatar": "https://avatars.mds.yandex.net/i?id=ac38220f4615948a7ba8ae71974995bd2ad3eac7-10146075-images-thumbs&n=13", "categoryId": 2, "price": "$799", "about": "Professional performance and design" },
+    { "id": 12, "name": "Ultrabook 3", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=d97f3e0d56479729dbad3ec3279d11fd54599e2f-8000733-images-thumbs&n=13", "categoryId": 4, "price": "$899", "about": "Lightweight and powerful for everyday use" },
+        { "id": 13, "name": "Ultrabook 4", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=d97f3e0d56479729dbad3ec3279d11fd54599e2f-8000733-images-thumbs&n=13", "categoryId": 4, "price": "$899", "about": "Lightweight and powerful for everyday use" }
+,
+    { "id": 14, "name": "Ultrabook 5", "status": true, "avatar": "https://avatars.mds.yandex.net/i?id=d97f3e0d56479729dbad3ec3279d11fd54599e2f-8000733-images-thumbs&n=13", "categoryId": 4, "price": "$899", "about": "Lightweight and powerful for everyday use" }
+
+  ],
+
+  "category": [
+    { "id": 1, "name": "Gaming", "icon": "/src/logic/pages/img/Background (7).png", "status": true, "avatar": "/src/logic/pages/img/Image+Background.png", "about": "High refresh rates & GPU power" },
+    { "id": 2, "name": "Business", "icon": "/src/logic/pages/img/Background (8).png", "status": true, "avatar": "/src/logic/pages/img/Image+Background (1).png", "about": "Professional performance and design" },
+    { "id": 3, "name": "Student", "icon": "/src/logic/pages/img/Background (9).png", "status": false, "avatar": "/src/logic/pages/img/Image+Background (2).png", "about": "Affordable and reliable for students" },
+    { "id": 4, "name": "Ultrabook", "icon": "/src/logic/pages/img/Background (10).png", "status": true, "avatar": "/src/logic/pages/img/Image+Background (3).png", "about": "Lightweight and powerful for everyday use" }
+  ],
+
+  "popular": [
+    { "id": 1, "cost": "$1299", "about": "M3 Chip, 16GB RAM, 512GB SSD", "name": "Gaming Laptop 1", "status": true, "avatar": "/src/logic/pages/img/Background (11).png", "categoryId": 1 },
+    { "id": 2, "cost": "$1299", "about": "RTX 4080, 32GB RAM, 1TB SSD", "name": "Business Laptop 1", "status": true, "avatar": "/src/logic/pages/img/Background (12).png", "categoryId": 2 },
+    { "id": 3, "cost": "$1299", "about": "i7 vPro, 16GB, 14-hour battery", "name": "Student Laptop 1", "status": false, "avatar": "/src/logic/pages/img/Background (13).png", "categoryId": 3 },
+    { "id": 4, "cost": "$1299", "about": "Lightweight, All-day power", "name": "Ultrabook 1", "status": true, "avatar": "/src/logic/pages/img/Background (14).png", "categoryId": 4 }
+  ],
+
+  "users": [
+    {
+      "name": "Alice",
+      "email": "alice@example.com",
+      "password": "alice123"
+    },
+    {
+      "name": "Bob",
+      "email": "bob@example.com",
+      "password": "bob123"
+    }
+  ]
+}

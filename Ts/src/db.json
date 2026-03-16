@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "Simon Heathcote",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/45.jpg",
+      "age": 53,
+      "id": "1"
+    },
+    {
+      "name": "Judith Armstrong",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/31.jpg",
+      "age": 29,
+      "id": "2"
+    },
+    {
+      "name": "Travis Emard DDS",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/51.jpg",
+      "age": 15,
+      "id": "3"
+    },
+    {
+      "name": "Jeff Koch",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/44.jpg",
+      "age": 13,
+      "id": "4"
+    },
+    {
+      "name": "Mr. Willie Hirthe",
+      "avatar": "https://avatars.githubusercontent.com/u/37934407",
+      "age": 92,
+      "id": "5"
+    },
+    {
+      "name": "Mr. Melvin Ernser",
+      "avatar": "https://avatars.githubusercontent.com/u/38221574",
+      "age": 3,
+      "id": "6"
+    },
+    {
+      "name": "Jodi Walsh",
+      "avatar": "https://avatars.githubusercontent.com/u/15520389",
+      "age": 50,
+      "id": "7"
+    },
+    {
+      "name": "Albert Heaney-Krajcik I",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/87.jpg",
+      "age": 28,
+      "id": "8"
+    },
+    {
+      "name": "Ms. Phyllis Russel-Wilkinson",
+      "avatar": "https://avatars.githubusercontent.com/u/1080547",
+      "age": 40,
+      "id": "9"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <button class="btnAdd">add user</button>
+    <dialog class="addModal">
+        <form class="addForm" action="">
+            <input name="name" type="text" placeholder="name">
+            <input name="age" type="number" placeholder="age">
+            <input name="avatar" type="file" placeholder="your foto">
+            <button class="btnSubmit" type="submit">submit</button>
+        </form>
+        <button class="btnClose">close</button>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>img</th>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

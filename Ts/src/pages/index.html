@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button class="onModal">Add User</button>
+    <dialog class="addModal">
+        <form action="" class="addForm">
+            <input type="text" name="name" placeholder="Enter your name...">
+            <input type="num" name="age" placeholder="Enter your age...">
+            <button type="submit" class="addUser">Add</button>
+        </form>
+        <button class="offModal">exit</button>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>avatar</th>
+                <th>name</th>
+                <th>age</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../../dist/logic/main.js"></script>
+</body>
+</html>
